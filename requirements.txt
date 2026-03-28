@@ -1,4 +1,6 @@
-google-adk==1.0.0
+
+google-adk
+deprecated
 fastapi
 uvicorn
 google-genai
