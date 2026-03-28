@@ -1,6 +1,5 @@
 
-google-adk
-deprecated
 fastapi
 uvicorn
-google-genai
+google-generativeai
+deprecated
