@@ -36,3 +36,8 @@ async def summarize(request: Request):
                     response_text += part.text
 
     return {"summary": response_text}
+
+if __name__ == "__main__":
+    import uvicorn
+    port = int(os.environ.get("PORT", 8080))
+    uvicorn.run("main:app", host="0.0.0.0", port=port)
